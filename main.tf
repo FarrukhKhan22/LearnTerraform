@@ -1,7 +1,5 @@
 provider "aws" {
     region = var.location
-    access_key = ""
-    secret_key = ""
 }
 
 resource "aws_instance" "vm" {

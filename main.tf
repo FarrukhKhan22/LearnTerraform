@@ -1,7 +1,7 @@
-provider "aws" {
+provider "aws" {  
+    access_key = "AWS_ACCESS_KEY"
+    secret_key = "AWS_SECRET_KEY"
     region = var.location
-    access_key = "aws_access_key"
-    secret_key = "aws_secret_key"
 }
 
 resource "aws_instance" "vms" {

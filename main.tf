@@ -1,5 +1,5 @@
 provider "aws" {
-    region = var.location
+    region = var.region
 }
 
 resource "aws_instance" "FirstVm" {
